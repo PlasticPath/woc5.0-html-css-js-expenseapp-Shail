@@ -3,7 +3,9 @@
         <title>
             Expense App
         </title>
+		<script src="Custom.js"></script>
     </head>
+	
     <body>
         <link rel="stylesheet" href="Project.css">
         <h1 class ="One" id="heading">
@@ -13,16 +15,23 @@
             <h3 class ="One" id="heading2">New Expense</h3>
             <div class = "Two">
                 <hr>
-            <div>Expense 1</div>
+            <div>Expense 1<label id="lbl1"><input type="text" value="" id="e1"></label></div>
             <hr>
-            <div>Expense 2</div>
+            <div>Expense 2<label id="lbl2"><input type="text" value="" id="e2"></label></div>
             <hr>
             <br>
             <div class = "Three">
-            <div id="ae">Add Expense</div>
-            <div id="dl">Delete List</div>
+            <!-- <div id="ae">Add Expense</div>
+            <div id="dl">Delete List</div> -->
+			<br>
+			
+			<input type="submit" value="Add Expense" onclick="AddValue()" >
+			
+			<input type="submit" value="Delete List">
+			
             </div>
             </div>
         </div>
+        <input type="submit" value="+" onclick="New()"  id ="bottom">
     </body>
 </html>

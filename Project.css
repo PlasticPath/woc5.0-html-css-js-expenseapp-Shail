@@ -63,4 +63,12 @@ html
     background-color: rgb(231, 244, 249);
     display:inline-block;
 }
+#bottom
+{
+    display:flex;
+    height:20px;
+    float:right;
+    
+    
+}
 
