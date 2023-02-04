@@ -66,9 +66,12 @@ html
 #bottom
 {
     display:flex;
-    height:20px;
-    float:right;
-    
+    /* height:20px; */
+    float:bottom;
+    margin-bottom:10px;
+    position: absolute;
+    bottom: 0; 
+    right: 0 ;
     
 }
 
